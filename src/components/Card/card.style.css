@@ -1,0 +1,33 @@
+.card-items {
+  max-width: calc(25% - 60px);
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-image: radial-gradient(circle,#d89300,#d59309,#d19310,#ce9216,#cb921b,#d08127,#d07033,#cd613f,#bb4557);
+  background-repeat: no-repeat;
+  box-shadow: 0 0 6px 0 rgb(240 227 227);
+  font-family: 'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+  margin-bottom: 20px;
+  color: #fff;
+  border-radius: 8px
+}
+.card-items h2 {
+  font-size: 20px
+}
+@media (max-width:1100px) {
+  .card-items {
+    max-width: calc(33.3% - 50px)
+  }
+}
+@media (max-width:767px) {
+    .card-items {
+      max-width: calc(50% - 60px)
+    }
+  }
+
+  @media (max-width:525px) {
+    .card-items {
+      max-width: 100%;
+    }
+  }
+

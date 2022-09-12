@@ -1,0 +1,11 @@
+.Search-box {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 16px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 0 16px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 6px 0px rgb(0 0 0 / 20%);
+  border: 1px solid #a7a5a5;
+}
